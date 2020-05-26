@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recipes>
+  <recipe id="1">
+    <name>Naleśniki (~10 sztuk)</name>
+    <timeRequired>20</timeRequired>
+    <cost>15</cost>
+    <difficulty>2</difficulty>
+    <ingredients>
+      - 1 szklanka mąki pszennej
+      - 2 jajka
+      - 1 szklanka mleka
+      - 3/4 szklanki wody (najlepiej gazowanej)
+      - szczypta soli
+      - 3 łyżki masła lub oleju roślinnego
+    </ingredients>
+    <steps>
+      Mąkę wsypać do miski, dodać jajka, mleko, wodę i sól. Zmiksować na gładkie ciasto. Dodać roztopione masło lub olej roślinny i razem zmiksować (lub wykorzystać tłuszcz do smarowania patelni przed smażeniem każdego naleśnika).
+      Naleśniki smażyć na dobrze rozgrzanej patelni z cienkim dnem np. naleśnikowej. Przewrócić na drugą stronę gdy spód naleśnika będzie już ładnie zrumieniony i ścięty.
+    </steps>
+  </recipe>
+  <recipe id="2">
+    <name>Pierogi ruskie</name>
+    <timeRequired>60</timeRequired>
+    <cost>20</cost>
+    <difficulty>3</difficulty>
+    <ingredients>
+      - 750 gramów mąki
+      - 200 gramów ziemniaków
+      - 200 gramów sera białego
+      - 1 jajko
+      - 0.5 szklanki wody
+      - 50 gramów cebuli
+      - 30 gramów tłuszczu
+      - 1 szczypta Pieprzu czarnego
+      - 0.5 pęczka natki pietruszki
+    </ingredients>
+    <steps>
+      Przesiej mąkę, dodaj wodę i jajko. Zagnieć i wyrób ciasto na jednolitą masę.
+      Ziemniaki ugotuj. Cebulę pokrój w kostkę i zeszklij na patelni. Wystudzone ziemniaki przepuść przez maszynkę wraz z twarogiem i cebulą, dodaj rozkruszoną mini kostkę i pieprz.
+      Podziel ciasto na kilka kawałków, każdy wałkuj cienko i wykrawaj z niego krążki o średnicy około 5 centymetrów. Na środek krążka nakładaj farsz. Składaj na pół, dokładnie zlepiając brzegi.
+      Na wrzącą osoloną wodę wrzucaj partiami pierogi, zamieszaj. Gdy podpłyną w górę, gotuj jeszcze 2 minuty. Gotowe wyjmuj łyżką cedzakową. Natkę posiekaj. Pierogi podawaj polane zrumienioną cebulką i posypane natką pietruszki.
+    </steps>
+  </recipe>
+
+</recipes>
