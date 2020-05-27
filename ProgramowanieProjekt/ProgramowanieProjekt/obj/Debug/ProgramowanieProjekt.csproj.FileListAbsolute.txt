@@ -16,8 +16,6 @@ C:\Users\danpa\source\repos\ProgramowanieProjekt\ProgramowanieProjekt\obj\Debug\
 C:\Users\danpa\source\repos\ProgramowanieProjekt\ProgramowanieProjekt\obj\Debug\DisplayWindow.baml
 C:\Users\danpa\source\repos\ProgramowanieProjekt\ProgramowanieProjekt\obj\Debug\CreateWindow.g.cs
 C:\Users\danpa\source\repos\ProgramowanieProjekt\ProgramowanieProjekt\obj\Debug\ListWindow.g.cs
-C:\Users\danpa\source\repos\ProgramowanieProjekt\ProgramowanieProjekt\obj\Debug\SearchWindow.g.cs
 C:\Users\danpa\source\repos\ProgramowanieProjekt\ProgramowanieProjekt\obj\Debug\CreateWindow.baml
 C:\Users\danpa\source\repos\ProgramowanieProjekt\ProgramowanieProjekt\obj\Debug\ListWindow.baml
-C:\Users\danpa\source\repos\ProgramowanieProjekt\ProgramowanieProjekt\obj\Debug\SearchWindow.baml
 C:\Users\danpa\source\repos\ProgramowanieProjekt\ProgramowanieProjekt\obj\Debug\ProgramowanieProjekt.csproj.CoreCompileInputs.cache

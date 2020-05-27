@@ -14,13 +14,14 @@
                 <RowDefinition Height="2*"/>
             </Grid.RowDefinitions>
             <TextBlock Grid.Row="0" VerticalAlignment="Center" FontWeight="Bold" TextAlignment="Center" FontSize="20">Wyniki</TextBlock>
-            <ListView Grid.Row="1" Margin="10" Name="recipeList" ItemsSource="{Binding}" DisplayMemberPath="recipe" >
+            <ListView Grid.Row="1" Margin="10" Name="recipeList">
+                <!--<XmlDataProvider Source="../../recipes.xml" XPath="recipes/recipe"/>-->
                 <ListView.View>
                     <GridView x:Name="recipeL">
-                        <GridViewColumn Header="Nazwa" Width="250"/>
-                        <GridViewColumn Header="Czas (min)" Width="100"/>
-                        <GridViewColumn Header="Koszt (zł)" Width="100"/>
-                        <GridViewColumn Header="Poziom trudności" Width="100"/>
+                        <GridViewColumn Header="Nazwa" Width="250" DisplayMemberBinding="{Binding Path='name'}"/>
+                        <GridViewColumn Header="Czas (min)" Width="100" DisplayMemberBinding="{Binding Path='timeRequired'}"/>
+                        <GridViewColumn Header="Koszt (zł)" Width="100" DisplayMemberBinding="{Binding Path='cost'}"/>
+                        <GridViewColumn Header="Poziom trudności" Width="100" DisplayMemberBinding="{Binding Path='difficulty'}"/>
                     </GridView>
                 </ListView.View>
             </ListView>
