@@ -41,5 +41,19 @@
       Na wrzącą osoloną wodę wrzucaj partiami pierogi, zamieszaj. Gdy podpłyną w górę, gotuj jeszcze 2 minuty. Gotowe wyjmuj łyżką cedzakową. Natkę posiekaj. Pierogi podawaj polane zrumienioną cebulką i posypane natką pietruszki.
     </steps>
   </recipe>
-
+  <recipe id="3">
+    <name>Placki Ziemniaczane</name>
+    <timeRequired>60</timeRequired>
+    <cost>14</cost>
+    <difficulty>2</difficulty>
+    <ingredients>ziemniaki – 1 kg
+szalotka – 3 szt.
+jaja – 2 szt.
+mąka pszenna – 3 łyżki
+sól
+pieprz czarny, mielony
+olej słonecznikowy – 200 ml</ingredients>
+    <steps>Umyte i obrane ziemniaki trzemy na tarce o grubych oczkach. Cebulę siekamy w drobną kostkę i dodajemy wraz z jajkami i mąką do startych ziemniaków. Doprawiamy do smaku solą i świeżo mielonym pieprzem, a następnie dokładnie mieszamy.
+Na rozgrzaną patelnię wylewamy olej i łyżką stołową nakładamy małe porcje masy ze startych ziemniaków, którym nadajemy okrągły kształt. Placuszki powinny mieć grubość ok. 0,5 cm. Smażymy na złotobrązowy kolor z każdej strony tak, aby były chrupiące. Po usmażeniu placuszki odsączamy z tłuszczu na ręczniku papierowym. Podajemy ze śmietaną oraz porwanymi gałązkami koperku.</steps>
+  </recipe>
 </recipes>

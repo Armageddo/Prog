@@ -13,9 +13,13 @@
                 <RowDefinition Height="8*"/>
                 <RowDefinition Height="2*"/>
             </Grid.RowDefinitions>
-            <TextBlock Grid.Row="0" VerticalAlignment="Center" FontWeight="Bold" TextAlignment="Center" FontSize="20">Wyniki</TextBlock>
+            <TextBlock Grid.Row="0" VerticalAlignment="Center" FontWeight="Bold" TextAlignment="Center" FontSize="20">Przepisy</TextBlock>
             <ListView Grid.Row="1" Margin="10" Name="recipeList">
-                <!--<XmlDataProvider Source="../../recipes.xml" XPath="recipes/recipe"/>-->
+                <ListView.ItemContainerStyle>
+                    <Style TargetType="ListViewItem">
+                        <EventSetter Event="PreviewMouseLeftButtonDown" Handler="OpenRecipe" />
+                    </Style>
+                </ListView.ItemContainerStyle>
                 <ListView.View>
                     <GridView x:Name="recipeL">
                         <GridViewColumn Header="Nazwa" Width="250" DisplayMemberBinding="{Binding Path='name'}"/>

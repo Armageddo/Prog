@@ -14,7 +14,7 @@
                         <RowDefinition Height="150"></RowDefinition>
                     </Grid.RowDefinitions>
                     <StackPanel>
-                        <TextBox Margin="0 5 0 5" Width="150" Name="recipeName" Text="Nazwa przepisu" TextAlignment="Center" FontWeight="Bold" HorizontalAlignment="Center"/>
+                        <TextBox Margin="0 5 0 5" Width="150" Name="recipeName" Text="Nazwa przepisu" TextAlignment="Center" FontWeight="Bold" HorizontalAlignment="Center" />
                         <TextBlock Margin="0 2 0 0" Text="Czas przygotowania:" FontWeight="Bold" HorizontalAlignment="Center"/>
                         <TextBox Margin="0 0 0 2" Width="60" Name="time" Text="Czas (min)" HorizontalAlignment="Center"/>
                         <TextBlock Margin="0 2 0 0" Text="Koszt:" FontWeight="Bold" HorizontalAlignment="Center"/>
@@ -31,11 +31,11 @@
                 </Grid>
                 <StackPanel>
                     <TextBlock Margin="0 5 0 2" Text="Składniki:" FontWeight="Bold"/>
-                    <TextBox Height="150" Name="ingredients" Text="Podaj składniki"/>
+                    <TextBox Height="150" Name="ingredients" Text="Podaj składniki" TextWrapping="Wrap" AcceptsReturn="True"/>
                     <TextBlock Margin="0 5 0 2" Text="Przepis:" FontWeight="Bold"/>
-                    <TextBox Height="200" Name="steps" Text="Podaj przepis"/>
+                    <TextBox Height="200" Name="steps" Text="Podaj przepis" TextWrapping="Wrap" AcceptsReturn="True"/>
                 </StackPanel>
-                <Button Margin="20" Width="75" Height="30">Zapisz</Button>
+                <Button Margin="20" Width="75" Height="30" Click="SubmitRecipe">Zapisz</Button>
             </StackPanel>
             <Button HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="20" Width="100" Height="40" Click="OpenMain">Menu główne</Button>
         </Grid>

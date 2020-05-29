@@ -11,6 +11,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Xml;
+using System.Xml.Linq;
 
 namespace ProgramowanieProjekt
 {
@@ -27,6 +29,38 @@ namespace ProgramowanieProjekt
         {
             Application.Current.MainWindow.Visibility = Visibility.Visible;
             this.Close();
+        }
+        private void SubmitRecipe(object sender, RoutedEventArgs e)
+        {
+            XDocument recipes = XDocument.Load("../../recipes.xml");
+
+            int nodeCount = 0;
+            using (var reader = XmlReader.Create("../../recipes.xml"))
+            {
+                while (reader.Read())
+                {
+                    if (reader.NodeType == XmlNodeType.Element &&
+                        reader.Name == "recipe")
+                    {
+                        nodeCount++;
+                    }
+                }
+            }
+
+
+            XElement recipe = new XElement("recipe", new XAttribute("id", nodeCount + 1),
+                new XElement("name", recipeName.Text),
+                new XElement("timeRequired", time.Text),
+                new XElement("cost", cost.Text),
+                new XElement("difficulty", difficulty.SelectedIndex+1),
+                new XElement("ingredients", ingredients.Text),
+                new XElement("steps", steps.Text));
+            recipes.Root.Add(recipe);
+            recipes.Save("../../recipes.xml");
+
+            DisplayWindow window = new DisplayWindow(nodeCount + 1);
+            this.Close();
+            window.Show();
         }
     }
 }

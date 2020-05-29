@@ -33,5 +33,15 @@ namespace ProgramowanieProjekt
             Application.Current.MainWindow.Visibility = Visibility.Visible;
             this.Close();
         }
+        private void OpenRecipe(object sender, MouseButtonEventArgs e)
+        {
+            var item = sender as ListViewItem;
+            if (item != null && item.IsSelected)
+            {
+                DisplayWindow window = new DisplayWindow(recipeList.SelectedIndex+1);
+                this.Close();
+                window.Show();
+            }
+        }
     }
 }
